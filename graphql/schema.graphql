@@ -11,7 +11,7 @@ type Query{
     movie (id: Int!): Movie
 }
 
-// change of state
+# change of state
 type Mutation {
     addMovie(name:String!,score:Int!):Movie!
 }
