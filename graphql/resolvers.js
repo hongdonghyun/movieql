@@ -1,6 +1,12 @@
+const hong3 = {
+    name:"hong3",
+    age:12,
+    test:"message"
+}
+
 const resolvers = {
     Query : {
-        name:() => "hong3"
+        person: () => hong3
     }
 }
 

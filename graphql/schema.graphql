@@ -1,3 +1,10 @@
+type hong3 {
+    name:String!
+    age:Int!
+    test:String!
+}
+
+
 type Query{
-    name: String!
+    person: hong3!
 }
