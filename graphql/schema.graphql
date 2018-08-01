@@ -1,10 +1,12 @@
-type hong3 {
+type Person {
+    id:Int!
     name:String!
     age:Int!
-    test:String!
+    company:String!
 }
 
 
 type Query{
-    person: hong3!
+    people: [Person]!
+    person (id: Int!): Person
 }
